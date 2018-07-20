@@ -1,6 +1,19 @@
 <html>
 <head>
   <title>Super Rad Awesome</title>
+  <style>
+    #divStruct {
+      background: red;
+    }
+    
+    .row {
+     margin: 10px;
+    }
+    
+    .col {
+      width: 50%;
+    }
+  </style>
 </head>
 <body>
   <h1>Yo yo yo. This is my new site made on git. Git wit it.</h1>
@@ -11,14 +24,21 @@
   <h6>Git wit it.</h6>
   <p>Ok. Fun.</p>
   
-  <div>
-    LEVEL 1
-      <div>
+  <div id="divStruct" class="many manyclasses row">
+      <div class ="col">
         LEVEL 2
-        <div>
+      </div>
+      <div class ="col">
             MAIN COPY GOES HERE
-        </div>
-    </div>
-  </div>
+       </div>
+   </div>
+    <div id="divStruct" class="many manyclasses row">
+      <div class ="col">
+        LEVEL 69
+      </div>
+      <div class ="col">
+            SECOND COPY GOES HERE
+       </div>
+   </div>
 </body>
 </html>
